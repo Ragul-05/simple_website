@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+ul,li{
+    display: inline-block;
+    margin-top: 10px;
+    color: grey;
+}
+
+li:hover{
+     color: white;
+     cursor: pointer;
+}
+
+.biriyani{
+      border-color: black;
+      border-width: 4px;
+      border-style: solid;
+      display: inline-block;
+      width: 240px;
+      margin-top: 10px;
+      padding: 10px;
+}
+
+.biriyani:hover{
+    border-color: red;
+    cursor: pointer;
+}
+
+
+p:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer; 
+    text-align: center;  
+}
+
+.property{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    height: 200px;
+}
+
+.sub{
+    width: 350px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.sub:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+h3:hover{
+    border: 20px;
+    border-style: solid;
+    background-color:black;
+    color:white;
+    display:inline;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    padding: 11px;
+    height: fit-content;
+    cursor:pointer;
+    
+}    
